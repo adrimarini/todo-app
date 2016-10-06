@@ -15,6 +15,10 @@
 			<h1>YOU'VE GOT {{ todos.remainingTodos().length }} THINGS TO DO!</h1>
 			<h4>{{ todos.completedTodos().length }} things completed | {{ todos.remainingTodos().length }} things remaining</h4>
 		</header>
+		<nav class='tabs'>
+			<a ui-sref="home"> My List</a>
+			<a ui-sref="archive"> Archives </a>
+		</nav>
 		<main ui-view>
 
 		</main>
