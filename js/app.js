@@ -12,6 +12,10 @@ function MainRouter($stateProvider, $urlRouterProvider) {
 		.state('home', {
 			url: "/",
 			templateURL: "home.html",
+		})
+		.state('archive', {
+			url: "/archive",
+			templateURL: "archive.html",
 		});
 
 		$urlRouterProvider.otherwise('/');
